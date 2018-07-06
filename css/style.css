@@ -649,8 +649,70 @@ figure{
   cursor: pointer;
 }
 
+/*08.section-banner-five*/
+.banner-five .counter {
+  background: #009146;
+  display: block;
+  padding: 83px 0;
+}
 
+.banner-five .counter .ico {
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  margin: 0;
+}
 
+.banner-five .counter .count-number {
+  display: block;
+  margin: 0;
+}
+
+.banner-five .counter .count-number span {
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.banner-five .counter h4 {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+}
+
+.pd-0 {
+  padding: 0px;
+}
+
+.banner-five .counter2 {
+  background: #00994a;
+  display: block;
+  padding: 83px 0;
+}
+
+.banner-five .counter2 .ico {
+  font-size: 30px;
+  color: #fff;
+  display: block;
+  margin: 0;
+}
+
+.banner-five .counter2 .count-number {
+  display: block;
+  margin: 0;
+}
+
+.banner-five .counter2 .count-number span {
+  font-size: 50px;
+  font-weight: 900;
+  color: #fff;
+}
+
+.banner-five .counter2 h4 {
+  margin: 0;
+  color: #fff;
+  font-size: 18px;
+}
 
 
 
