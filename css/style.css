@@ -295,29 +295,6 @@ img {
   border-radius: 5px;
 }
 
-/*.btn3:before {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: #fff;
-  border-radius: 5px;
-  transition: all 0.3s;
-}
-
-.btn3 span {
-  position: relative;
-  z-index: 999;
-  text-decoration: none;
-}
-
-.btn3:hover {
-  background-color: #e5ae49;
-  color: #fff;
-}*/
-
 .btn3{
   padding: 5px 40px;
   border-radius: 5px;
@@ -353,7 +330,7 @@ p {
 
 /*05.section-banner-two*/
 .banner-two{
-  padding: 100px 0 150px 0;
+  padding: 100px 0;
 }
 
 .banner-two .banner-image .title {
@@ -457,6 +434,104 @@ p {
 .banner-two .img-content .about .pd-l15{
   padding-left: 15px;
 }
+
+/*06.section-banner-three*/
+.banner-three{
+  padding: 100px 0 70px;
+  background: url(http://www.webstrot.com/html/tm/worship/images/banner/bg-1.jpg);
+  padding: 100px 0 70px;
+  z-index: 0;
+  position: relative;
+}
+.banner-three:after{
+  background: rgba(0, 0, 0, 0.8);
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+.bg-img{
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.title {
+  display: block;
+  position: relative;
+  z-index: 999;
+  padding: 0;
+  margin: 0 0 56px;
+  text-align: center;
+}
+
+.title h2 {
+  position: relative;
+  color: #fff;
+  margin: 0;
+  padding: 0 0 28px;
+  display: block;
+}
+
+.title h2:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8px;
+  background: url(http://www.webstrot.com/html/tm/worship/images/section/2.png) no-repeat;
+  background-position: center;
+}
+
+.banner-three .prayer-list {
+  position: relative;
+  z-index: 999;
+  background: rgba(255, 255, 255, 0.1);
+  display: block;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.banner-three .prayer-list h4 {
+  display: block;
+  border-radius: 5px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  padding: 18px 0;
+}
+
+.banner-three .prayer-list strong {
+  display: block;
+  margin: 0 0 15px;
+  color: #fff;
+  font-size: 24px;
+}
+
+.banner-three .prayer-list button {
+  display: inline-block;
+  background: #009146;
+  color: #fff;
+  border-radius: 5px;
+  margin: 0 0 28px;
+  padding: 10px 23px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s;
+  border: 1px solid #009146;
+}
+
+.banner-three .prayer-list button:hover {
+  background: #e5ae49;
+  border: 1px solid #e5ae49;
+}
+
+
+
 
 
 
