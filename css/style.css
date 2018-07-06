@@ -530,6 +530,126 @@ p {
   border: 1px solid #e5ae49;
 }
 
+/*07.section-banner-four*/
+.banner-four{
+  padding: 100px 0 70px;
+}
+
+.section_heading {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 0 0 50px;
+  text-align: center;
+}
+
+.section_heading h2 {
+  display: block;
+  position: relative;
+  padding: 0 0 28px;
+  margin: 0 0 30px;
+  color: #111;
+}
+
+.section_heading h2:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8px;
+  background: url(http://www.webstrot.com/html/tm/worship/images/section/1.png) no-repeat;
+  background-position: center;
+}
+
+.section_heading p {
+  margin: 0 auto;
+  padding: 0;
+  display: block;
+  width: 70%;
+}
+
+.donate-list{
+  box-sizing: border-box;
+  border: 8px solid #f5f5f5;
+  border-top: 0;
+}
+
+figure{
+  margin: 0;
+}
+
+.donate-list .donate-content{
+  padding: 35px 15px 55px 20px;
+}
+
+.banner-four .donate-list .donate-content .date {
+  display: block;
+  margin: 0 0 15px;
+}
+
+.banner-four .donate-list .donate-content .date i {
+  color: #009146;
+  margin-right: 10px;
+  transition: all 0.3s;
+}
+
+.banner-four .donate-list .donate-content h4 {
+  font-size: 20px;
+  margin: 0 0 5px;
+}
+
+.banner-four .donate-list .donate-content h4 a {
+  color: #111111;
+  text-decoration: none;
+}
+
+.banner-four .donate-list .donate-content p {
+  margin: 0 0 26px;
+}
+
+.banner-four .donate-list .donate-content p a {
+  margin-left: 3px;
+  display: inline-block;
+  color: #009146;
+  text-decoration: none;
+}
+
+.banner-four .donate-list .donate-content .money {
+  font-size: 18px;
+  color: #111111;
+  display: block;
+  margin: 0 0 25px;
+}
+
+.banner-four .donate-list .donate-content .money span {
+  font-weight: 900;
+  color: #111111;
+  font-size: 14px;
+}
+
+.banner-four .donate-list .donate-content .money strong {
+  font-weight: 900;
+  color: #009146;
+  font-size: 34px;
+  transition: all 0.3s;
+}
+
+.btn4 {
+  color: #fff;
+  background-color: #009146;
+  padding: 15px 35px;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.btn4:hover{
+  background-color: #e5ae49;
+  cursor: pointer;
+}
+
+
 
 
 
