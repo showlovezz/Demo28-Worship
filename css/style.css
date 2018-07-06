@@ -351,9 +351,112 @@ p {
   font-weight: 400;
 }
 
+/*05.section-banner-two*/
+.banner-two{
+  padding: 100px 0 150px 0;
+}
 
+.banner-two .banner-image .title {
+  position: absolute;
+  left: -156px;
+  top: 202px;
+  transform: rotate(-90deg);
+  border: 8px solid #f5f5f5;
+  z-index: -1;
+}
 
+.banner-two .banner-image img{
+  z-index: 99;
+}
 
+.banner-two .banner-image .title h4 {
+  margin: 0;
+  font-size: 20px;
+  padding: 20px 110px 100px 65px;
+  color: #c9c9c9;
+}
+
+.banner-two .img-content h2 {
+  position: relative;
+  display: block;
+  padding: 0 0 38px;
+  color: #111111;
+  margin: 0 0 30px;
+}
+
+.banner-two .img-content h2:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8px;
+  background: url(http://www.webstrot.com/html/tm/worship/images/section/3.png) no-repeat;
+}
+
+.banner-two .img-content p {
+  margin: 0 0 50px;
+}
+
+.banner-two .img-content .about {
+  width: 100%;
+  display: block;
+  float: left;
+}
+
+.banner-two .img-content .about .about-block{
+  float: left;
+  width: 50%;
+}
+
+.banner-two .img-content .about .pd-r15{
+  padding-right: 15px;
+}
+
+.banner-two .img-content .about .about-block h4 {
+  color: #111111;
+  font-size: 20px;
+  margin: 0 0 20px;
+}
+
+.banner-two .img-content .about .about-block h4 span {
+  color: #000;
+  font-size: 20px;
+  display: inline-block;
+  margin-right: 14px;
+  width: 46px;
+  height: 46px;
+  position: relative;
+  border-radius: 100%;
+  text-align: center;
+  line-height: 46px;
+  cursor: pointer;
+}
+
+.banner-two .img-content .about .about-block h4 span:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #009146;
+  border-radius: 100%;
+  transition: all 0.3s;
+  z-index: -1;
+}
+
+.banner-two .img-content .about .about-block h4 span i{
+  color: #fff;
+}
+
+.banner-two .img-content .about .about-block p {
+    margin: 0;
+}
+
+.banner-two .img-content .about .pd-l15{
+  padding-left: 15px;
+}
 
 
 
