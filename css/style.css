@@ -147,9 +147,54 @@ img {
   font-weight: 600;
 }
 
+/*03.carousel*/
+.carousel .carousel-inner .carousel-item img{
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
+}
 
+.carousel .carousel-inner .carousel-item .carousel-caption{
+  top: 0%;
+  transform: translateY(10%);
+}
 
+.carousel .carousel-inner .carousel-item .carousel-caption h2 {
+  margin: 0 0 50px;
+  font-size: 68px;
+}
 
+.carousel .carousel-inner .carousel-item .carousel-caption h2 .primary {
+  color: #009146;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption h2 .hover {
+  color: #e5ae49;
+}
+
+.btn2 {
+  border: 2px solid rgba(255, 255, 255, 0.3);
+  color: #fff;
+  font-weight: 700;
+  line-height: 50px;
+  padding: 0 32px;
+  display: inline-block;
+  border-radius: 5px;
+  position: relative;
+  overflow: hidden;
+}
+
+.carousel .carousel-inner .carousel-item .carousel-caption a {
+  transition: all 0.3s;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #009146 !important;
+  color: #fff;
+  border: 2px solid #009146;
+}
 
 
 
