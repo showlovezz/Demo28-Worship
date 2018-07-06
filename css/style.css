@@ -152,7 +152,16 @@ img {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 50px;
+}
+
+.carousel .carousel-inner .carousel-item:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
 }
 
 .carousel .carousel-inner .carousel-item .carousel-caption{
@@ -194,6 +203,152 @@ img {
   background: #009146 !important;
   color: #fff;
   border: 2px solid #009146;
+}
+
+/*04.section-banner-one*/
+.banner-one {
+  background: #f5f5f5;
+  position: relative;
+  padding: 76px 0;
+  display: block;
+  margin: 0 0 38px;
+}
+
+.banner-one .banner-content h2 {
+  color: #009146;
+  margin: 0 0 30px;
+}
+
+.banner-one .banner-content span a {
+  color: #009146;
+}
+
+.banner-one .contact-banner {
+  position: absolute;
+  top: -76px;
+  left: 15px;
+  right: 15px;
+  bottom: -37px;
+}
+
+.banner-one .contact-banner figure {
+  position: relative;
+  margin: 0;
+}
+
+.banner-one .contact-banner figure img {
+  width: 100%;
+}
+
+.banner-one .contact-banner figure .content {
+  position: absolute;
+  top: 58px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 999;
+}
+
+.banner-one .contact-banner figure .content h4 {
+  position: relative;
+  font-size: 20px;
+  color: #fff;
+  padding: 0 0 24px;
+  margin: 0 0 35px;
+}
+
+.banner-one .contact-banner figure .content h4:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8px;
+  text-align: center;
+  background: url(http://www.webstrot.com/html/tm/worship/images/section/2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.banner-one .contact-banner figure .content h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  margin: 0 0 5px;
+  display: block;
+}
+
+.banner-one .contact-banner figure .content .mail {
+  color: #fff;
+  font-size: 20px;
+  display: block;
+  margin: 0 0 35px;
+}
+
+.btn3 {
+  display: inline-block;
+  position: relative;
+  line-height: 50px;
+  padding: 0 45px;
+  color: #111111;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+/*.btn3:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: #fff;
+  border-radius: 5px;
+  transition: all 0.3s;
+}
+
+.btn3 span {
+  position: relative;
+  z-index: 999;
+  text-decoration: none;
+}
+
+.btn3:hover {
+  background-color: #e5ae49;
+  color: #fff;
+}*/
+
+.btn3{
+  padding: 5px 40px;
+  border-radius: 5px;
+  background-color: #fff;
+}
+
+.btn3:hover{
+  text-decoration: none;
+  background-color: #e5ae49;
+}
+
+.btn3 span{
+  color: #000;
+}
+
+.banner-one .contact-banner figure:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 145, 70, 0.9);
+}
+
+p {
+  font-size: 16px;
+  color: #797979;
+  vertical-align: baseline;
+  line-height: 26px;
+  font-weight: 400;
 }
 
 
